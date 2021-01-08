@@ -29,7 +29,7 @@
 	"require": {
 		"php": ">=5.5",
 		"ext-json": "*",
-		"psr/container": "^1.0",
+		"psr/container": "^1.0"
 	},
 	"autoload": {
 		"files": "src/Imagine/Foundation/helpers.php",
