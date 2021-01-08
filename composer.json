@@ -1,12 +1,12 @@
 {
 	"name": "diexadev/microframework",
-	"description": "Kerangka kerja PHP sederhana",
+	"description": "Kerangka kerja PHP sederhana Flannel",
 	"version": "1.0",
 	"type": "project",
 	"keywords": [
-		"framework",
 		"diexadev",
-		"microframework"
+		"microframework",
+		"flannel"
 	],
 	"license": "MIT",
 	"homepage": "https://diexadev.github.io",
