@@ -33,10 +33,10 @@
 	},
 	"autoload": {
 		"files": "src/Imagine/Foundation/helpers.php",
-        "psr-4": {
-            "Imagine\\": "src/Imagine/"
-        }
-    },
+		"psr-4": {
+			"Imagine\\": "src/Imagine/"
+		}
+	},
 	"minimum-stability": "dev",
-    "prefer-stable": true
+	"prefer-stable": true
 }
