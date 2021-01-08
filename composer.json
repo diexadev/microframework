@@ -1,7 +1,7 @@
 {
 	"name": "diexadev/microframework",
 	"description": "Kerangka kerja PHP sederhana Flannel",
-	"version": "1.0",
+	"version": "dev-master",
 	"type": "project",
 	"keywords": [
 		"diexadev",
