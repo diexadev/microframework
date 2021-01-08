@@ -1,0 +1,45 @@
+{
+	"name": "diexadev/microframework",
+	"description": "Kerangka kerja PHP sederhana",
+	"version": "1.0",
+	"type": "project",
+	"keywords": [
+		"framework",
+		"diexadev",
+		"microframework"
+	],
+	"license": "MIT",
+	"homepage": "https://diexadev.github.io",
+	"authors": [
+		{
+			"name": "Diexa Adhitiya",
+			"email": "diexadev@gmail.com",
+			"homepage": "https://facebook.com/diexaadhitiya",
+			"role": "Developer"
+		}
+	],
+	"support": [
+		{
+			"email": "diexadev@gmail.com",
+			"issues": "https://github.com/diexadev/microframework/issues",
+			"source": "https://github.com/diexadev/microframework/",
+			"chat": "https://t.me/diexaadhitiya"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"ext-json": "*",
+		"psr/container": "^1.0",
+	},
+	"autoload": {
+		"files": [
+            "src/Imagine/Foundation/helpers.php"
+        ],
+        "psr-4": {
+            "Imagine\\": "src/Imagine/"
+        }
+    },
+	},
+	"minimum-stability": "dev",
+    "prefer-stable": true
+}
