@@ -17,14 +17,12 @@
 			"role": "Developer"
 		}
 	],
-	"support": [
-		{
+	"support": {
 			"email": "diexadev@gmail.com",
 			"issues": "https://github.com/diexadev/microframework/issues",
 			"source": "https://github.com/diexadev/microframework/",
 			"chat": "https://t.me/diexaadhitiya"
-		}
-	],
+	},
 	"require": {
 		"php": ">=7.3.2",
 		"psr/http-message": "~1",
