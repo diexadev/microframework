@@ -1,12 +1,11 @@
-{
+
 	"name": "diexadev/microframework",
-	"description": "Kerangka kerja PHP sederhana Flannel",
+	"description": "Kerangka kerja PHP sederhana",
 	"version": "dev-master",
 	"type": "project",
 	"keywords": [
 		"diexadev",
-		"microframework",
-		"flannel"
+		"microframework"
 	],
 	"license": "MIT",
 	"homepage": "https://diexadev.github.io",
@@ -27,15 +26,16 @@
 		}
 	],
 	"require": {
-		"php": ">=5.5",
-		"ext-json": "*",
-		"psr/container": "^1.0"
-	},
-	"autoload": {
-		"files": "src/Imagine/Foundation/helpers.php",
-		"psr-4": {
-			"Imagine\\": "src/Imagine/"
-		}
+		"php": ">=7.3.2",
+		"psr/http-message": "~1",
+		"psr/http-factory": "~1",
+		"psr/http-client": "~1",
+		"psr/http-server-handler": "~1",
+		"psr/http-server-middleware": "~1",
+		"psr/log": "~1",
+		"psr/container": "~1",
+		"psr/event-dispatcher": "~1",
+		"fig/http-message-util": "~1"
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true
