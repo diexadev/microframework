@@ -1,7 +1,7 @@
 
 	"name": "diexadev/microframework",
 	"description": "Kerangka kerja PHP sederhana",
-	"version": "dev-master",
+	"version": "dev",
 	"type": "project",
 	"keywords": [
 		"diexadev",
