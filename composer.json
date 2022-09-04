@@ -7,8 +7,10 @@
 		"diexadev",
 		"microframework"
 	],
-	"license": "MIT",
 	"homepage": "https://diexadev.github.io",
+	"readme": "https://github.com/diexadev/microframework/readme.md",
+	"time": "2022-09-26",
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Diexa Adhitiya",
@@ -23,6 +25,16 @@
 			"source": "https://github.com/diexadev/microframework/",
 			"chat": "https://t.me/diexaadhitiya"
 	},
+	"funding": [
+        {
+            "type": "instagram",
+            "url": "https://www.instagram.com/diexaadhitiya"
+        },
+        {
+            "type": "facebook",
+            "url": "https://www.facebook.com/diexaadhitiya"
+        }
+    ],
 	"require": {
 		"php": ">=7.3.2",
 		"psr/http-message": "~1",
@@ -35,6 +47,7 @@
 		"psr/event-dispatcher": "~1",
 		"fig/http-message-util": "~1"
 	},
+	"autoload": "",
 	"minimum-stability": "dev",
 	"prefer-stable": true
 }
