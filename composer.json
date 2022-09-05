@@ -46,14 +46,8 @@
 	},
 	"autoload": {
 		"files": [
-			"env.php",
-			"src/migrations.php",
+			"src/env.php",
 			"src/routes.php"
-		],
-		"classmap": [
-			"src/addons/*/lib/",
-			"3rd-party/*",
-			"Something.php"
 		],
 		"psr-4": {
 			"Monolog\\": "src/",
@@ -61,5 +55,9 @@
 		}
 	},
 	"minimum-stability": "dev",
-	"prefer-stable": true
+	"prefer-stable": true,
+	"repositories": {
+		"type": "composer",
+		"url": "http://repo.web"
+	},
 }
